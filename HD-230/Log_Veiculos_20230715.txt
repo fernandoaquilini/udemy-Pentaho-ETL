@@ -1,0 +1,216 @@
+2023/07/15 05:41:20 - Veiculos - Opening transformation: [D:\Projects\00-training\00-pentaho\HD-207\HD-224\Transformação Veículos.ktr]
+2023/07/15 05:41:20 - Veiculos - Starting transformation...(file=D:\Projects\00-training\00-pentaho\HD-207\HD-224\Transformação Veículos.ktr, name=Veiculos, repinfo=null)
+2023/07/15 05:41:20 - Veiculos - Using run configuration [Pentaho local]
+2023/07/15 05:41:20 - Transformação Veículos - Transforma??o ? pr?-carregada do reposit?rio.
+2023/07/15 05:41:20 - Transformação Veículos - Expedindo in?cio para transforma??o [Transformação Veículos]
+2023/07/15 05:41:20 - Transformação Veículos - Nr de argumentos detectados:0 
+2023/07/15 05:41:20 - Transformação Veículos - Esta n?o ? uma repeti??o de transforma??o
+2023/07/15 05:41:20 - Transformação Veículos - Foram encotrados 11 steps diferentes para executar.
+2023/07/15 05:41:20 - Transformação Veículos - Alocando rowsets...
+2023/07/15 05:41:20 - Transformação Veículos -  Alocando rowsets para o step 0 --> Arquivo Veículo
+2023/07/15 05:41:20 - Transformação Veículos -   c?pias pr?vias = 1, pr?ximas c?pias=1
+2023/07/15 05:41:20 - Transformação Veículos - Transforma??o alocou novo rowset [Arquivo Veículo.0 - Troca AM.0]
+2023/07/15 05:41:20 - Transformação Veículos -  Foram alocados 1 rowsets por step 0 --> Arquivo Veículo  
+2023/07/15 05:41:20 - Transformação Veículos -  Alocando rowsets para o step 1 --> Troca AM
+2023/07/15 05:41:20 - Transformação Veículos -   c?pias pr?vias = 1, pr?ximas c?pias=1
+2023/07/15 05:41:20 - Transformação Veículos - Transforma??o alocou novo rowset [Troca AM.0 - Troca PM.0]
+2023/07/15 05:41:20 - Transformação Veículos -  Foram alocados 2 rowsets por step 1 --> Troca AM  
+2023/07/15 05:41:20 - Transformação Veículos -  Alocando rowsets para o step 2 --> Troca PM
+2023/07/15 05:41:20 - Transformação Veículos -   c?pias pr?vias = 1, pr?ximas c?pias=1
+2023/07/15 05:41:20 - Transformação Veículos - Transforma??o alocou novo rowset [Troca PM.0 - Maiúsculo País.0]
+2023/07/15 05:41:20 - Transformação Veículos -  Foram alocados 3 rowsets por step 2 --> Troca PM  
+2023/07/15 05:41:20 - Transformação Veículos -  Alocando rowsets para o step 3 --> Maiúsculo País
+2023/07/15 05:41:20 - Transformação Veículos -   c?pias pr?vias = 1, pr?ximas c?pias=1
+2023/07/15 05:41:20 - Transformação Veículos - Transforma??o alocou novo rowset [Maiúsculo País.0 - Continente.0]
+2023/07/15 05:41:20 - Transformação Veículos -  Foram alocados 4 rowsets por step 3 --> Maiúsculo País  
+2023/07/15 05:41:20 - Transformação Veículos -  Alocando rowsets para o step 4 --> Continente
+2023/07/15 05:41:20 - Transformação Veículos -   c?pias pr?vias = 1, pr?ximas c?pias=1
+2023/07/15 05:41:20 - Transformação Veículos - Transforma??o alocou novo rowset [Continente.0 - Tratar Nulo.0]
+2023/07/15 05:41:20 - Transformação Veículos -  Foram alocados 5 rowsets por step 4 --> Continente  
+2023/07/15 05:41:20 - Transformação Veículos -  Alocando rowsets para o step 5 --> Tratar Nulo
+2023/07/15 05:41:20 - Transformação Veículos -   c?pias pr?vias = 1, pr?ximas c?pias=1
+2023/07/15 05:41:20 - Transformação Veículos - Transforma??o alocou novo rowset [Tratar Nulo.0 - DDD.0]
+2023/07/15 05:41:20 - Transformação Veículos -  Foram alocados 6 rowsets por step 5 --> Tratar Nulo  
+2023/07/15 05:41:20 - Transformação Veículos -  Alocando rowsets para o step 6 --> DDD
+2023/07/15 05:41:20 - Transformação Veículos -   c?pias pr?vias = 1, pr?ximas c?pias=1
+2023/07/15 05:41:20 - Transformação Veículos - Transforma??o alocou novo rowset [DDD.0 - Split E-Mail.0]
+2023/07/15 05:41:20 - Transformação Veículos -  Foram alocados 7 rowsets por step 6 --> DDD  
+2023/07/15 05:41:20 - Transformação Veículos -  Alocando rowsets para o step 7 --> Split E-Mail
+2023/07/15 05:41:20 - Transformação Veículos -   c?pias pr?vias = 1, pr?ximas c?pias=1
+2023/07/15 05:41:20 - Transformação Veículos - Transforma??o alocou novo rowset [Split E-Mail.0 - Idade do Veículo.0]
+2023/07/15 05:41:20 - Transformação Veículos -  Foram alocados 8 rowsets por step 7 --> Split E-Mail  
+2023/07/15 05:41:20 - Transformação Veículos -  Alocando rowsets para o step 8 --> Idade do Veículo
+2023/07/15 05:41:20 - Transformação Veículos -   c?pias pr?vias = 1, pr?ximas c?pias=1
+2023/07/15 05:41:20 - Transformação Veículos - Transforma??o alocou novo rowset [Idade do Veículo.0 - Concatena Nomes.0]
+2023/07/15 05:41:20 - Transformação Veículos -  Foram alocados 9 rowsets por step 8 --> Idade do Veículo  
+2023/07/15 05:41:20 - Transformação Veículos -  Alocando rowsets para o step 9 --> Concatena Nomes
+2023/07/15 05:41:20 - Transformação Veículos -   c?pias pr?vias = 1, pr?ximas c?pias=1
+2023/07/15 05:41:20 - Transformação Veículos - Transforma??o alocou novo rowset [Concatena Nomes.0 - Grava Arquivo.0]
+2023/07/15 05:41:20 - Transformação Veículos -  Foram alocados 10 rowsets por step 9 --> Concatena Nomes  
+2023/07/15 05:41:20 - Transformação Veículos -  Alocando rowsets para o step 10 --> Grava Arquivo
+2023/07/15 05:41:20 - Transformação Veículos -  Foram alocados 10 rowsets por step 10 --> Grava Arquivo  
+2023/07/15 05:41:20 - Transformação Veículos - Alocando Steps & StepData...
+2023/07/15 05:41:20 - Transformação Veículos -  Transforma??o ir? alocar o step [Arquivo Veículo] do tipe [CsvInput]
+2023/07/15 05:41:20 - Arquivo Veículo.0 - distribution activated
+2023/07/15 05:41:20 - Arquivo Veículo.0 - Starting allocation of buffers & new threads...
+2023/07/15 05:41:20 - Arquivo Veículo.0 - Step info: nrinput=0 nroutput=1
+2023/07/15 05:41:20 - Arquivo Veículo.0 - output rel. is  1:1
+2023/07/15 05:41:20 - Arquivo Veículo.0 - Found output rowset [Arquivo Veículo.0 - Troca AM.0]
+2023/07/15 05:41:20 - Arquivo Veículo.0 - Finished dispatching
+2023/07/15 05:41:20 - Transformação Veículos -  Transforma??o alocou um novo step: [Arquivo Veículo].0
+2023/07/15 05:41:20 - Transformação Veículos -  Transforma??o ir? alocar o step [Troca AM] do tipe [ReplaceString]
+2023/07/15 05:41:20 - Troca AM.0 - distribution activated
+2023/07/15 05:41:20 - Troca AM.0 - Starting allocation of buffers & new threads...
+2023/07/15 05:41:20 - Troca AM.0 - Step info: nrinput=1 nroutput=1
+2023/07/15 05:41:20 - Troca AM.0 - !BaseStep.Log.GotPreviousStep!
+2023/07/15 05:41:20 - Troca AM.0 - input rel is 1:1
+2023/07/15 05:41:20 - Troca AM.0 - Found input rowset [Arquivo Veículo.0 - Troca AM.0]
+2023/07/15 05:41:20 - Troca AM.0 - output rel. is  1:1
+2023/07/15 05:41:20 - Troca AM.0 - Found output rowset [Troca AM.0 - Troca PM.0]
+2023/07/15 05:41:20 - Troca AM.0 - Finished dispatching
+2023/07/15 05:41:20 - Transformação Veículos -  Transforma??o alocou um novo step: [Troca AM].0
+2023/07/15 05:41:20 - Transformação Veículos -  Transforma??o ir? alocar o step [Troca PM] do tipe [ReplaceString]
+2023/07/15 05:41:20 - Troca PM.0 - distribution activated
+2023/07/15 05:41:20 - Troca PM.0 - Starting allocation of buffers & new threads...
+2023/07/15 05:41:20 - Troca PM.0 - Step info: nrinput=1 nroutput=1
+2023/07/15 05:41:20 - Troca PM.0 - !BaseStep.Log.GotPreviousStep!
+2023/07/15 05:41:20 - Troca PM.0 - input rel is 1:1
+2023/07/15 05:41:20 - Troca PM.0 - Found input rowset [Troca AM.0 - Troca PM.0]
+2023/07/15 05:41:20 - Troca PM.0 - output rel. is  1:1
+2023/07/15 05:41:20 - Troca PM.0 - Found output rowset [Troca PM.0 - Maiúsculo País.0]
+2023/07/15 05:41:20 - Troca PM.0 - Finished dispatching
+2023/07/15 05:41:20 - Transformação Veículos -  Transforma??o alocou um novo step: [Troca PM].0
+2023/07/15 05:41:20 - Transformação Veículos -  Transforma??o ir? alocar o step [Maiúsculo País] do tipe [StringOperations]
+2023/07/15 05:41:20 - Maiúsculo País.0 - distribution activated
+2023/07/15 05:41:20 - Maiúsculo País.0 - Starting allocation of buffers & new threads...
+2023/07/15 05:41:20 - Maiúsculo País.0 - Step info: nrinput=1 nroutput=1
+2023/07/15 05:41:20 - Maiúsculo País.0 - !BaseStep.Log.GotPreviousStep!
+2023/07/15 05:41:20 - Maiúsculo País.0 - input rel is 1:1
+2023/07/15 05:41:20 - Maiúsculo País.0 - Found input rowset [Troca PM.0 - Maiúsculo País.0]
+2023/07/15 05:41:20 - Maiúsculo País.0 - output rel. is  1:1
+2023/07/15 05:41:20 - Maiúsculo País.0 - Found output rowset [Maiúsculo País.0 - Continente.0]
+2023/07/15 05:41:20 - Maiúsculo País.0 - Finished dispatching
+2023/07/15 05:41:20 - Transformação Veículos -  Transforma??o alocou um novo step: [Maiúsculo País].0
+2023/07/15 05:41:20 - Transformação Veículos -  Transforma??o ir? alocar o step [Continente] do tipe [ValueMapper]
+2023/07/15 05:41:20 - Continente.0 - distribution activated
+2023/07/15 05:41:20 - Continente.0 - Starting allocation of buffers & new threads...
+2023/07/15 05:41:20 - Continente.0 - Step info: nrinput=1 nroutput=1
+2023/07/15 05:41:20 - Continente.0 - !BaseStep.Log.GotPreviousStep!
+2023/07/15 05:41:20 - Continente.0 - input rel is 1:1
+2023/07/15 05:41:20 - Continente.0 - Found input rowset [Maiúsculo País.0 - Continente.0]
+2023/07/15 05:41:20 - Continente.0 - output rel. is  1:1
+2023/07/15 05:41:20 - Continente.0 - Found output rowset [Continente.0 - Tratar Nulo.0]
+2023/07/15 05:41:20 - Continente.0 - Finished dispatching
+2023/07/15 05:41:20 - Transformação Veículos -  Transforma??o alocou um novo step: [Continente].0
+2023/07/15 05:41:20 - Transformação Veículos -  Transforma??o ir? alocar o step [Tratar Nulo] do tipe [IfNull]
+2023/07/15 05:41:20 - Tratar Nulo.0 - distribution activated
+2023/07/15 05:41:20 - Tratar Nulo.0 - Starting allocation of buffers & new threads...
+2023/07/15 05:41:20 - Tratar Nulo.0 - Step info: nrinput=1 nroutput=1
+2023/07/15 05:41:20 - Tratar Nulo.0 - !BaseStep.Log.GotPreviousStep!
+2023/07/15 05:41:20 - Tratar Nulo.0 - input rel is 1:1
+2023/07/15 05:41:20 - Tratar Nulo.0 - Found input rowset [Continente.0 - Tratar Nulo.0]
+2023/07/15 05:41:20 - Tratar Nulo.0 - output rel. is  1:1
+2023/07/15 05:41:20 - Tratar Nulo.0 - Found output rowset [Tratar Nulo.0 - DDD.0]
+2023/07/15 05:41:20 - Tratar Nulo.0 - Finished dispatching
+2023/07/15 05:41:20 - Transformação Veículos -  Transforma??o alocou um novo step: [Tratar Nulo].0
+2023/07/15 05:41:20 - Transformação Veículos -  Transforma??o ir? alocar o step [DDD] do tipe [StringCut]
+2023/07/15 05:41:20 - DDD.0 - distribution activated
+2023/07/15 05:41:20 - DDD.0 - Starting allocation of buffers & new threads...
+2023/07/15 05:41:20 - DDD.0 - Step info: nrinput=1 nroutput=1
+2023/07/15 05:41:20 - DDD.0 - !BaseStep.Log.GotPreviousStep!
+2023/07/15 05:41:20 - DDD.0 - input rel is 1:1
+2023/07/15 05:41:20 - DDD.0 - Found input rowset [Tratar Nulo.0 - DDD.0]
+2023/07/15 05:41:20 - DDD.0 - output rel. is  1:1
+2023/07/15 05:41:20 - DDD.0 - Found output rowset [DDD.0 - Split E-Mail.0]
+2023/07/15 05:41:20 - DDD.0 - Finished dispatching
+2023/07/15 05:41:20 - Transformação Veículos -  Transforma??o alocou um novo step: [DDD].0
+2023/07/15 05:41:20 - Transformação Veículos -  Transforma??o ir? alocar o step [Split E-Mail] do tipe [FieldSplitter]
+2023/07/15 05:41:20 - Split E-Mail.0 - distribution activated
+2023/07/15 05:41:20 - Split E-Mail.0 - Starting allocation of buffers & new threads...
+2023/07/15 05:41:20 - Split E-Mail.0 - Step info: nrinput=1 nroutput=1
+2023/07/15 05:41:20 - Split E-Mail.0 - !BaseStep.Log.GotPreviousStep!
+2023/07/15 05:41:20 - Split E-Mail.0 - input rel is 1:1
+2023/07/15 05:41:20 - Split E-Mail.0 - Found input rowset [DDD.0 - Split E-Mail.0]
+2023/07/15 05:41:20 - Split E-Mail.0 - output rel. is  1:1
+2023/07/15 05:41:20 - Split E-Mail.0 - Found output rowset [Split E-Mail.0 - Idade do Veículo.0]
+2023/07/15 05:41:20 - Split E-Mail.0 - Finished dispatching
+2023/07/15 05:41:20 - Transformação Veículos -  Transforma??o alocou um novo step: [Split E-Mail].0
+2023/07/15 05:41:20 - Transformação Veículos -  Transforma??o ir? alocar o step [Idade do Veículo] do tipe [NumberRange]
+2023/07/15 05:41:20 - Idade do Veículo.0 - distribution activated
+2023/07/15 05:41:20 - Idade do Veículo.0 - Starting allocation of buffers & new threads...
+2023/07/15 05:41:20 - Idade do Veículo.0 - Step info: nrinput=1 nroutput=1
+2023/07/15 05:41:20 - Idade do Veículo.0 - !BaseStep.Log.GotPreviousStep!
+2023/07/15 05:41:20 - Idade do Veículo.0 - input rel is 1:1
+2023/07/15 05:41:20 - Idade do Veículo.0 - Found input rowset [Split E-Mail.0 - Idade do Veículo.0]
+2023/07/15 05:41:20 - Idade do Veículo.0 - output rel. is  1:1
+2023/07/15 05:41:20 - Idade do Veículo.0 - Found output rowset [Idade do Veículo.0 - Concatena Nomes.0]
+2023/07/15 05:41:20 - Idade do Veículo.0 - Finished dispatching
+2023/07/15 05:41:20 - Transformação Veículos -  Transforma??o alocou um novo step: [Idade do Veículo].0
+2023/07/15 05:41:20 - Transformação Veículos -  Transforma??o ir? alocar o step [Concatena Nomes] do tipe [ConcatFields]
+2023/07/15 05:41:20 - Concatena Nomes.0 - distribution activated
+2023/07/15 05:41:20 - Concatena Nomes.0 - Starting allocation of buffers & new threads...
+2023/07/15 05:41:20 - Concatena Nomes.0 - Step info: nrinput=1 nroutput=1
+2023/07/15 05:41:20 - Concatena Nomes.0 - !BaseStep.Log.GotPreviousStep!
+2023/07/15 05:41:20 - Concatena Nomes.0 - input rel is 1:1
+2023/07/15 05:41:20 - Concatena Nomes.0 - Found input rowset [Idade do Veículo.0 - Concatena Nomes.0]
+2023/07/15 05:41:20 - Concatena Nomes.0 - output rel. is  1:1
+2023/07/15 05:41:20 - Concatena Nomes.0 - Found output rowset [Concatena Nomes.0 - Grava Arquivo.0]
+2023/07/15 05:41:20 - Concatena Nomes.0 - Finished dispatching
+2023/07/15 05:41:20 - Transformação Veículos -  Transforma??o alocou um novo step: [Concatena Nomes].0
+2023/07/15 05:41:20 - Transformação Veículos -  Transforma??o ir? alocar o step [Grava Arquivo] do tipe [ExcelOutput]
+2023/07/15 05:41:20 - Grava Arquivo.0 - distribution activated
+2023/07/15 05:41:20 - Grava Arquivo.0 - Starting allocation of buffers & new threads...
+2023/07/15 05:41:20 - Grava Arquivo.0 - Step info: nrinput=1 nroutput=0
+2023/07/15 05:41:20 - Grava Arquivo.0 - !BaseStep.Log.GotPreviousStep!
+2023/07/15 05:41:20 - Grava Arquivo.0 - input rel is 1:1
+2023/07/15 05:41:20 - Grava Arquivo.0 - Found input rowset [Concatena Nomes.0 - Grava Arquivo.0]
+2023/07/15 05:41:20 - Grava Arquivo.0 - Finished dispatching
+2023/07/15 05:41:20 - Transformação Veículos -  Transforma??o alocou um novo step: [Grava Arquivo].0
+2023/07/15 05:41:20 - Transformação Veículos - Esta transforma??o pode ser repetida com a data de repeti??o : 2023/07/15 05:41:20
+2023/07/15 05:41:20 - Transformação Veículos - Inicializando 11 steps...
+2023/07/15 05:41:20 - Arquivo Veículo.0 - Released server socket on port 0
+2023/07/15 05:41:20 - Troca AM.0 - Released server socket on port 0
+2023/07/15 05:41:20 - Continente.0 - Released server socket on port 0
+2023/07/15 05:41:20 - Maiúsculo País.0 - Released server socket on port 0
+2023/07/15 05:41:20 - Grava Arquivo.0 - Released server socket on port 0
+2023/07/15 05:41:20 - Idade do Veículo.0 - Released server socket on port 0
+2023/07/15 05:41:20 - Split E-Mail.0 - Released server socket on port 0
+2023/07/15 05:41:20 - DDD.0 - Released server socket on port 0
+2023/07/15 05:41:20 - Tratar Nulo.0 - Released server socket on port 0
+2023/07/15 05:41:20 - Troca PM.0 - Released server socket on port 0
+2023/07/15 05:41:20 - Concatena Nomes.0 - Released server socket on port 0
+2023/07/15 05:41:20 - Transformação Veículos - Step [Arquivo Veículo.0] inicializado sem falhas.
+2023/07/15 05:41:20 - Transformação Veículos - Step [Troca AM.0] inicializado sem falhas.
+2023/07/15 05:41:20 - Transformação Veículos - Step [Troca PM.0] inicializado sem falhas.
+2023/07/15 05:41:20 - Transformação Veículos - Step [Maiúsculo País.0] inicializado sem falhas.
+2023/07/15 05:41:20 - Transformação Veículos - Step [Continente.0] inicializado sem falhas.
+2023/07/15 05:41:20 - Transformação Veículos - Step [Tratar Nulo.0] inicializado sem falhas.
+2023/07/15 05:41:20 - Transformação Veículos - Step [DDD.0] inicializado sem falhas.
+2023/07/15 05:41:20 - Transformação Veículos - Step [Split E-Mail.0] inicializado sem falhas.
+2023/07/15 05:41:20 - Transformação Veículos - Step [Idade do Veículo.0] inicializado sem falhas.
+2023/07/15 05:41:20 - Transformação Veículos - Step [Concatena Nomes.0] inicializado sem falhas.
+2023/07/15 05:41:20 - Transformação Veículos - Step [Grava Arquivo.0] inicializado sem falhas.
+2023/07/15 05:41:20 - Arquivo Veículo.0 - Iniciando execução...
+2023/07/15 05:41:20 - Maiúsculo País.0 - Iniciando execução...
+2023/07/15 05:41:20 - Troca AM.0 - Iniciando execução...
+2023/07/15 05:41:20 - Tratar Nulo.0 - Iniciando execução...
+2023/07/15 05:41:20 - Continente.0 - Iniciando execução...
+2023/07/15 05:41:20 - Transformação Veículos - Transforma??o alocou 11 threads e 10 rowsets.
+2023/07/15 05:41:20 - Troca PM.0 - Iniciando execução...
+2023/07/15 05:41:20 - Concatena Nomes.0 - Iniciando execução...
+2023/07/15 05:41:20 - Idade do Veículo.0 - Iniciando execução...
+2023/07/15 05:41:20 - Arquivo Veículo.0 - Header row skipped in file 'D:\Projects\00-training\00-pentaho\HD-207\HD-224\cliente_veiculo.csv'
+2023/07/15 05:41:20 - Split E-Mail.0 - Iniciando execução...
+2023/07/15 05:41:20 - DDD.0 - Iniciando execução...
+2023/07/15 05:41:20 - Grava Arquivo.0 - Iniciando execução...
+2023/07/15 05:41:20 - Arquivo Veículo.0 - Finished processing (I=1001, O=0, R=0, W=1000, U=0, E=0)
+2023/07/15 05:41:20 - Troca AM.0 - Finished processing (I=0, O=0, R=1000, W=1000, U=0, E=0)
+2023/07/15 05:41:20 - Troca PM.0 - Finished processing (I=0, O=0, R=1000, W=1000, U=0, E=0)
+2023/07/15 05:41:20 - Maiúsculo País.0 - Finished processing (I=0, O=0, R=1000, W=1000, U=0, E=0)
+2023/07/15 05:41:20 - Continente.0 - Finished processing (I=0, O=0, R=1000, W=1000, U=0, E=0)
+2023/07/15 05:41:20 - Tratar Nulo.0 - Finished processing (I=0, O=0, R=1000, W=1000, U=0, E=0)
+2023/07/15 05:41:20 - DDD.0 - Finished processing (I=0, O=0, R=1000, W=1000, U=0, E=0)
+2023/07/15 05:41:20 - Split E-Mail.0 - Finished processing (I=0, O=0, R=1000, W=1000, U=0, E=0)
+2023/07/15 05:41:20 - Idade do Veículo.0 - Finished processing (I=0, O=0, R=1000, W=1000, U=0, E=0)
+2023/07/15 05:41:20 - Concatena Nomes.0 - Finished processing (I=0, O=0, R=1000, W=1000, U=0, E=0)
+2023/07/15 05:41:20 - Grava Arquivo.0 - Finished processing (I=0, O=1000, R=1000, W=1000, U=0, E=0)
